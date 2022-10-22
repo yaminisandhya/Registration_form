@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,500;0,600;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+h1 {
+    border-radius: 9px;
+    background-color: #101011 ;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0 8px 0;
+}
+
+form h2 {
+    font-size: 25;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px none;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+p {
+    font-weight: 1000;
+}
+
+label {
+    font-weight: 1000;
+}
+
+.main {
+    display: flex;
+}
+
+form {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: pink;
+    justify-content: center;
+    text-align: center;
+    height: 480px;
+}
+
+form div {
+    margin: 5px 0 12px 0;
+    font-size: 18px;
+}
+
+form div .inp {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    padding: 6px;
+    font-size: 15;
+}
+
+.h-enrol {
+    color: #fff;
+}
+
+.button {
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    width: 45%;
+    border: 1px solid white;
+    margin-top: 10px;
+    font-size: 15;
+    font-weight: 900;
+}
+
+.card {
+    background-color: #A6C6B3 ;
+    color: #fff;
+    width: 200px;
+    border-radius: 6px;
+}
+
+.footer {
+    background-color: black;
+    width: 99%;
+    padding: 8px;
+    bottom: 5px;
+    margin-left: 5px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer a {
+    color: skyblue;
+}
